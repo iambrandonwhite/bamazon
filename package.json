@@ -1,0 +1,29 @@
+{
+  "name": "bamazon",
+  "version": "1.0.0",
+  "description": "A CLI-based storefront with the MySQL database backend.",
+  "main": "bamazoncustomer.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/iambrandonwhite/bamazon.git"
+  },
+  "keywords": [
+    "storefront",
+    "CLI-storefront",
+    "store"
+  ],
+  "author": "Brandon White",
+  "license": "ISC",
+  "bugs": {
+    "url": ""
+  },
+  "homepage": "https://github.com/iambrandonwhite/bamazon#readme",
+  "dependencies": {
+    "dotenv": "^7.0.0",
+    "inquirer": "^6.3.1",
+    "mysql": "^2.17.1"
+  }
+}
